@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, WasteLL 👋
 
-<!--
-**WasteLLHero/WasteLLHero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🖥️ About Me
+- C# / .NET Core / ASP.NET
+- Python / FastAPI / Django
+- SQL, PostgreSQL, Redis
+- Git, GitHub Actions, CI/CD
+- Open Source Contributor
 
-Here are some ideas to get you started:
+## 🌱 Currently Learning
+- Microservices architecture
+- Advanced Python type hints
+- DDD (Domain-Driven Design)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 Contact Me
+- Email: wastellhero@gmail.com
+- Telegram: @WasteLLHero
