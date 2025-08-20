@@ -15,14 +15,6 @@ I'm a passionate **Python & C# developer**, building APIs, automation tools, and
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WasteLLHero&layout=compact&theme=radical" alt="Top Languages"/>
-</p>
-
----
-
 ## 📫 Contact Me
 - Email: wastellhero@gmail.com  
 - Telegram: [@WasteLLHero](https://t.me/WasteLLHero)  
