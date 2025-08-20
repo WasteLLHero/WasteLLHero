@@ -1,5 +1,5 @@
 # Hi, WasteLL 👋
-![Приветствие](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![Приветствие](https://github.com/WasteLLHero/WasteLLHero/raw/main/profile-katana.gif)
 
 ## 🖥️ About Me
 - C# / .NET Core / ASP.NET
