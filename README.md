@@ -1,9 +1,9 @@
 # Hi, I'm WasteLL 👋
 ![Приветствие](https://github.com/WasteLLHero/WasteLLHero/raw/main/profile_katana.gif)
----
+
 ## 🖥️ About Me
 I'm a **Python & C# developer** specializing in **API development** and creating **Telegram Bots / Mini Apps**. I enjoy building scalable, efficient, and well-structured backend systems that solve real-world problems.  
----
+
 My work focuses on:
 - **Backend & API development** with C# (.NET Core) 
 - **Designing Telegram Bots** using Aiogram and Pyrogram for automation, notifications, and interactive applications  
@@ -14,7 +14,7 @@ My work focuses on:
 I love tackling challenging problems, optimizing system performance, and continuously exploring new technologies to enhance my projects.  
 
 Building clean, maintainable code and designing smooth user experiences through APIs and bots is my main passion.
----
+
 **Stack Highlights:**
 
 | C# Stack | Python Stack | Tools & Platforms |
