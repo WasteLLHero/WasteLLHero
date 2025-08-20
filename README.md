@@ -1,4 +1,5 @@
 # Hi, WasteLL 👋
+![Uploading 1583797596_preview_Guide (1).gif…]()
 
 ## 🖥️ About Me
 - C# / .NET Core / ASP.NET
