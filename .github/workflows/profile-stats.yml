@@ -11,7 +11,10 @@ jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # <- это важно для пуша
 
       - name: Generate stats
         run: |
@@ -24,4 +27,4 @@ jobs:
           git config user.email "wastellhero@gmail.com"
           git add stats.svg
           git commit -m "Update GitHub stats" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git push
