@@ -12,15 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Generate stats
         run: |
           curl "https://github-readme-stats.vercel.app/api?username=WasteLLHero&show_icons=true&theme=radical&count_private=true&include_all_commits=true&access_token=${{ secrets.STATS_TOKEN }}" \
             -o stats.svg
+
       - name: Commit and push
         run: |
-          git config --global user.name "WasteLLHero"
-          git config --global user.email "wastellhero@gmail.com"
+          git config user.name "WasteLLHero"
+          git config user.email "wastellhero@gmail.com"
           git add stats.svg
           git commit -m "Update GitHub stats" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
