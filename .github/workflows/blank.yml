@@ -1,0 +1,25 @@
+name: Generate GitHub Stats
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate stats
+        run: |
+          curl "https://github-readme-stats.vercel.app/api?username=WasteLLHero&show_icons=true&theme=radical&count_private=true&include_all_commits=true&access_token=${{ secrets.GH_TOKEN }}" \
+            -o stats.svg
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add stats.svg
+          git commit -m "Update GitHub stats"
+          git push
