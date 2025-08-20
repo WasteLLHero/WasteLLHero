@@ -8,7 +8,7 @@
 - Git, GitHub Actions, CI/CD
 
 
-I'm a passionate **Python & C# developer**, building APIs, automation tools, and AI solutions. I love clean code, exploring new technologies, and solving challenging problems.
+I'm a passionate **Python & C# developer**, building APIs, automation tools, and creatintg Telegram Bot / Mini Apps. I love clean code, exploring new technologies, and solving challenging problems.
 
 ---
 
@@ -19,7 +19,6 @@ I'm a passionate **Python & C# developer**, building APIs, automation tools, and
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="30" alt="PostgreSQL"/> PostgreSQL  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="30" alt="Redis"/> Redis  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="30" alt="AWS"/> Amazon S3  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" alt="Neural Network"/> Neural Networks / LLM  
 
 ### Python Stack
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" alt="Python"/> Python  
