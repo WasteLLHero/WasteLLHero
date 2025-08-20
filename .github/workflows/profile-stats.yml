@@ -18,8 +18,9 @@ jobs:
             -o stats.svg
       - name: Commit and push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "WasteLLHero"
+          git config --global user.email "wastellhero@gmail.com"
           git add stats.svg
-          git commit -m "Update GitHub stats"
-          git push
+          git commit -m "Update GitHub stats" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+
