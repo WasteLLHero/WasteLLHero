@@ -17,7 +17,6 @@ I'm a passionate **Python & C# developer**, building APIs, automation tools, and
 
 ## 📊 GitHub Stats
 <p align="center">
-  ![GitHub Stats](stats.svg)
 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WasteLLHero&layout=compact&theme=radical" alt="Top Languages"/>
 </p>
