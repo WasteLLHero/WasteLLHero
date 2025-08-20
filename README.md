@@ -13,7 +13,15 @@ I'm a passionate **Python & C# developer**, building APIs, automation tools, and
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="30"/> PostgreSQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="30"/> NumPy | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="30"/> Visual Studio / VS Code |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="30"/> Redis | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="30"/> Pandas | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="30"/> CI/CD (GitHub Actions / Jenkins) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="30"/> AWS (S3, Lambda) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="30"/> ML / AI | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="30"/> Linux / Shell Scripting |
-
+---
+## 🎓 Education
+- **Tyumen State University (Тюменский государственный университет)**, 2020–2024  
+  Bachelor in **Mathematical Support and Administration of Information Systems**  
+- **Online Courses & Certifications**:  
+  - Python Automation & Web Development  
+  - C# and .NET Core APIs  
+  - Docker & DevOps fundamentals  
+  - AWS Cloud Practitioner
 ---
 
 ## 📫 Contact Me
