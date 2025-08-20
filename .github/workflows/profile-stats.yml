@@ -14,15 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub stats
+      - name: Generate stats
         run: |
           curl "https://github-readme-stats.vercel.app/api?username=WasteLLHero&show_icons=true&theme=radical&count_private=true&include_all_commits=true&access_token=${{ secrets.STATS_TOKEN }}" \
             -o stats.svg
 
-      - name: Commit and push
-        run: |
-          git config --local user.name "WasteLLHero"
-          git config --local user.email "wastellhero@gmail.com"
-          git add stats.svg
-          git diff-index --quiet HEAD || git commit -m "Update GitHub stats"
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+      - name: Save as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-stats
+          path: stats.svg
