@@ -3,10 +3,9 @@
 
 ## 🖥️ About Me
 - C# / .NET Core / ASP.NET
-- Python / FastAPI / Django
+- Python / Aiogram / Pyrogram
 - SQL, PostgreSQL, Redis
 - Git, GitHub Actions, CI/CD
-- Open Source Contributor
 
 
 I'm a passionate **Python & C# developer**, building APIs, automation tools, and AI solutions. I love clean code, exploring new technologies, and solving challenging problems.
@@ -30,7 +29,7 @@ I'm a passionate **Python & C# developer**, building APIs, automation tools, and
 ### Tools & Platforms
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" alt="Git"/> Git & GitHub  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30" alt="Docker"/> Docker  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="30" alt="VS"/> Visual Studio / VS Code  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="30" alt="VS"/> Visual Studio Code  
 
 ---
 
