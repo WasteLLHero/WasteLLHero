@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate GitHub stats
         run: |
@@ -23,8 +21,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "WasteLLHero"
+          git config --local user.email "wastellhero@gmail.com"
           git add stats.svg
           git diff-index --quiet HEAD || git commit -m "Update GitHub stats"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }} HEAD:main
